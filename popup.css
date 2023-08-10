@@ -1,0 +1,35 @@
+:root{
+    --margin:5px;
+}
+.my-title{
+    margin: var(--margin);
+    margin-bottom: 6px;
+}
+.input{
+    margin: var(--margin);
+}
+.btn{
+    margin: var(--margin);
+
+}
+#submit-btn:hover{
+    cursor: pointer;
+}
+#save-btn:hover{
+    cursor: pointer;
+}
+#wrong-pin{
+    display: none;
+}
+/* passwords.html */
+.container{
+    display:flex;
+    margin:100px;
+    margin-top: 5px;
+}
+.child{
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
